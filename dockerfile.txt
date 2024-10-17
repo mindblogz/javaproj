@@ -1,4 +1,4 @@
-FROM openjdk:17-jdk-allpine
+FROM openjdk:17-jdk-alpine
 WORKDIR /Desktop/devps/devps
 COPY Main.java
 RUN javac Main.java
